@@ -46,7 +46,7 @@ void onEasyNeoPixel()
 {
   for (int i = 0; i < easyNeoPixels.numPixels(); i++)
   {
-    onEasyNeoPixel.setPixelColor(i, easyNeoPixels.Color(255,255,255));
+    easyNeoPixels.setPixelColor(i, easyNeoPixels.Color(255,255,255));
   }
   easyNeoPixels.show();
 }
